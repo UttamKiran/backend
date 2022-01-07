@@ -1,0 +1,227 @@
+{
+  message: '\n' +
+    'Request: GET /docs/ at Wed Jan 05 2022 19:54:40 GMT+0530, IP: 127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.365Z'
+}
+{
+  message: 'Response Body:\n' +
+    '\n' +
+    '<!-- HTML for static distribution bundle build -->\n' +
+    '<!DOCTYPE html>\n' +
+    '<html lang="en">\n' +
+    '<head>\n' +
+    '  <meta charset="UTF-8">\n' +
+    '  <title>Swagger UI</title>\n' +
+    '  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >\n' +
+    '  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" /><link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />\n' +
+    '  \n' +
+    '  <style>\n' +
+    '    html\n' +
+    '    {\n' +
+    '      box-sizing: border-box;\n' +
+    '      overflow: -moz-scrollbars-vertical;\n' +
+    '      overflow-y: scroll;\n' +
+    '    }\n' +
+    '    *,\n' +
+    '    *:before,\n' +
+    '    *:after\n' +
+    '    {\n' +
+    '      box-sizing: inherit;\n' +
+    '    }\n' +
+    '\n' +
+    '    body {\n' +
+    '      margin:0;\n' +
+    '      background: #fafafa;\n' +
+    '    }\n' +
+    '  </style>\n' +
+    '</head>\n' +
+    '\n' +
+    '<body>\n' +
+    '\n' +
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:absolute;width:0;height:0">\n' +
+    '  <defs>\n' +
+    '    <symbol viewBox="0 0 20 20" id="unlocked">\n' +
+    '      <path d="M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.378Z'
+}
+{
+  message: 'Response: 304 5.649 ms \n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.380Z'
+}
+{
+  message: '\n' +
+    'Request: GET /docs/swagger-ui-bundle.js at Wed Jan 05 2022 19:54:40 GMT+0530, IP: 127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.549Z'
+}
+{
+  message: 'Response: 200 12.518 ms \n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.550Z'
+}
+{
+  message: '\n' +
+    'Request: GET /docs/swagger-ui.css at Wed Jan 05 2022 19:54:40 GMT+0530, IP: 127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.634Z'
+}
+{
+  message: 'Response: 200 11.918 ms \n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.635Z'
+}
+{
+  message: '\n' +
+    'Request: GET /docs/swagger-ui-init.js at Wed Jan 05 2022 19:54:40 GMT+0530, IP: 127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.686Z'
+}
+{
+  message: 'Response Body:\n' +
+    '\n' +
+    'window.onload = function() {\n' +
+    '  // Build a system\n' +
+    '  var url = window.location.search.match(/url=([^&]+)/);\n' +
+    '  if (url && url.length > 1) {\n' +
+    '    url = decodeURIComponent(url[1]);\n' +
+    '  } else {\n' +
+    '    url = window.location.origin;\n' +
+    '  }\n' +
+    '  var options = {\n' +
+    '  "swaggerDoc": {\n' +
+    '    "swagger": "2.0",\n' +
+    '    "info": {\n' +
+    '      "title": "gtt-user-management-ms",\n' +
+    '      "description": "This is the User management Microservice",\n' +
+    '      "license": {\n' +
+    '        "name": "ISC"\n' +
+    '      },\n' +
+    '      "version": "0.0.1"\n' +
+    '    },\n' +
+    '    "paths": {\n' +
+    '      "/user/api/user": {\n' +
+    '        "get": {\n' +
+    '          "summary": "Get Users list",\n' +
+    '          "description": "Get Users list",\n' +
+    '          "tags": [\n' +
+    '            "User"\n' +
+    '          ],\n' +
+    '          "parameters": [\n' +
+    '            {\n' +
+    '              "name": "fn",\n' +
+    '              "in": "query",\n' +
+    '              "description": "first name",\n' +
+    '              "type": "string"\n' +
+    '            },\n' +
+    '            {\n' +
+    '              "name": "ln",\n' +
+    '              "in": "query",\n' +
+    '              "description": "last name",\n' +
+    '              "type": "s\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.688Z'
+}
+{
+  message: 'Response: 304 10.486 ms \n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.695Z'
+}
+{
+  message: '\n' +
+    'Request: GET /docs/swagger-ui-standalone-preset.js at Wed Jan 05 2022 19:54:40 GMT+0530, IP: 127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.746Z'
+}
+{
+  message: 'Response: 200 7.458 ms \n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:40.746Z'
+}
+{
+  message: '\n' +
+    'Request: GET /docs/favicon-32x32.png at Wed Jan 05 2022 19:54:41 GMT+0530, IP: 127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:41.482Z'
+}
+{
+  message: 'Response: 200 5.975 ms \n',
+  level: 'info',
+  timestamp: '2022-01-05T14:24:41.482Z'
+}
+{
+  message: '\n' +
+    'Request: GET /user/api/user/getRoles at Wed Jan 05 2022 19:56:12 GMT+0530, IP: 127.0.0.1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:26:12.036Z'
+}
+{
+  message: 'Response Body:\n' +
+    '{\n' +
+    '\t"data": [\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "physicianleader",\n' +
+    '\t\t\t"name": "Physician Leader"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "physician",\n' +
+    '\t\t\t"name": "Physician"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "advancedpracticeprovider",\n' +
+    '\t\t\t"name": "Advanced Practice Provider"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "headofhealthservices",\n' +
+    '\t\t\t"name": "Head of Health Services"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "healthservicessupervisor",\n' +
+    '\t\t\t"name": "Health Services Supervisor"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "nursecaremanager",\n' +
+    '\t\t\t"name": "Nurse Care Manager"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "carecoordinator",\n' +
+    '\t\t\t"name": "Care Coordinator"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "transitionofcarecoordinator",\n' +
+    '\t\t\t"name": "Transition of Care Coordinator"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "healthcoach",\n' +
+    '\t\t\t"name": "Health Coach"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "dietician",\n' +
+    '\t\t\t"name": "Dietician"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "socialworker",\n' +
+    '\t\t\t"name": "Social Worker"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "licensedclinicalsocialworker",\n' +
+    '\t\t\t"name": "Licensed Clinical Social Worker"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "cardiologist",\n' +
+    '\t\t\t"name": "Cardiologist"\n' +
+    '\t\t},\n' +
+    '\t\t{\n' +
+    '\t\t\t"_id": "psychiatrist",\n' +
+    '\t\t\t"name": "P\n' +
+    '...\n',
+  level: 'info',
+  timestamp: '2022-01-05T14:26:12.038Z'
+}
+{
+  message: 'Response: 304 95.463 ms \n',
+  level: 'info',
+  timestamp: '2022-01-05T14:26:12.041Z'
+}
